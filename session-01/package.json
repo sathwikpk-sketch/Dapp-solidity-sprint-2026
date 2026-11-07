@@ -1,0 +1,22 @@
+{
+  "name": "session-01-storage",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "tsx scripts/check.ts",
+    "deploy": "tsx scripts/deploy-interact.ts",
+    "connect": "tsx scripts/connect.ts",
+    "interact": "tsx scripts/interact.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "solc": "^0.8.28"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2"
+  }
+}
