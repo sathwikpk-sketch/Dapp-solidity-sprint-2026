@@ -1,5 +1,8 @@
 # Session 07 — Backend-controlled transaction
 
+Name: Sathwik PK
+Enrollment ID: Au24ug035
+
 The FastAPI service signs `setMessage` transactions using a dedicated backend test wallet. `POST /send` requires an `X-API-Key` header, validates the Sepolia RPC, estimates gas with a 20% margin, signs, broadcasts, and waits for confirmation.
 
 ```powershell

@@ -1,5 +1,8 @@
 # Session 04 — Smart contract events
 
+Name: Sathwik PK
+Enrollment ID: Au24ug035
+
 Deploy `contracts/MessageBoard.sol` with an initial string. The contract emits `MessageUpdated` whenever a user changes the message. `scanner.py` scans historical logs in block ranges; `subscribe.py` listens through a WebSocket RPC endpoint.
 
 ```powershell

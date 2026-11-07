@@ -1,5 +1,8 @@
 # Session 10 — ETH/USD oracle
 
+Name: Sathwik PK
+Enrollment ID: Au24ug035
+
 `PriceFeed.sol` stores an 8-decimal ETH/USD price and allows only the configured oracle address to update it. `PriceConsumer.sol` reads the feed and rejects stale values. `oracle.py` fetches CoinGecko and Coinbase spot prices, validates a broad sanity range, uses the median of available sources, and updates the feed when price changes by at least 0.1% or after a 60-second heartbeat.
 
 Deploy `PriceFeed` with the oracle wallet address as constructor argument. Set that same wallet's private key in the backend `.env`, then run:

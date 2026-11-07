@@ -1,5 +1,8 @@
 # Session 05 — IPFS file storage
 
+Name: Sathwik PK
+Enrollment ID: Au24ug035
+
 This session adds a small FastAPI service that uploads a file to Pinata and returns its CID and `ipfs://` URI. The Pinata JWT stays on the backend; do not expose it to a browser or commit it.
 
 ```powershell

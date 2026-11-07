@@ -1,5 +1,8 @@
 # Session 06 — Wallet basics and signatures
 
+Name: Sathwik PK
+Enrollment ID: Au24ug035
+
 Scripts cover account generation, mnemonic generation, message signing/recovery, and a raw EIP-1559 Sepolia transfer.
 
 ```powershell

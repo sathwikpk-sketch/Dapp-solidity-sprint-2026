@@ -1,5 +1,8 @@
 # Session 02 — MetaMask + MessageBoard
 
+Name: Sathwik PK
+Enrollment ID: Au24ug035
+
 The UI connects MetaMask, checks the configured chain ID, reads `getMessage()`, and calls `setMessage()` with a wallet signature. The ABI and function names match `contracts/MessageBoard.sol`.
 
 Deploy the contract separately (Remix or Hardhat) with an initial message, then set its address:

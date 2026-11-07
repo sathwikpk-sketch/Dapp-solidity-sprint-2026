@@ -2,6 +2,9 @@
 
 This repository contains the code used across the Solidity Sprint sessions. Each session has its own folder, README, and `.env.example` file. The examples are meant for learning and local testing, not as production-ready applications.
 
+Name: Sathwik PK
+Enrollment ID: Au24ug035
+
 ## Sessions
 
 | Session | What it covers |

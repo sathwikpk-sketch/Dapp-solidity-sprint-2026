@@ -1,5 +1,8 @@
 # Session 03 — Read-only blockchain API
 
+Name: Sathwik PK
+Enrollment ID: Au24ug035
+
 FastAPI exposes `/status`, `/message`, and `/balance/{address}`. It validates the Sepolia chain and checks Ethereum address format. It does not sign or send transactions.
 
 ```powershell
